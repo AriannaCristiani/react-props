@@ -48,4 +48,9 @@ img {
   border: none;
   border-radius: 5px;
   margin: 10px 0px 10px 0px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #1b362c;
 }

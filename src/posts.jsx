@@ -2,7 +2,6 @@ import tulipaniSrc from './assets/tulipani.jpg'
 import gigliSrc from './assets/gigli.jpg'
 import girasoliSrc from './assets/girasoli.jpg'
 import crisantemiSrc from './assets/crisantemi.jpg'
-import plsceholderSrc from './assets/placeholder.png'
 
 
 export const posts = [

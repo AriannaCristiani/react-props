@@ -1,4 +1,5 @@
 import style from './Card.module.css'
+import placeHolderSrc from '../../assets/placeholder.png'
 
 export default function Card(props) {
     //console.log('card props:', props)
@@ -7,7 +8,7 @@ export default function Card(props) {
     return (
         <div className={style.card}>
             <figure className={style.figure}>
-                <img className={style.image} src={props.image} alt="" />
+                <img className={style.image} src={props.image || placeHolderSrc} alt="" />
             </figure>
             <div className={style.body}>
                 <h3>{props.title}</h3>
