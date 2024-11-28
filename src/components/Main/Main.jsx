@@ -9,9 +9,9 @@ export default function Main() {
                     <div className="row">
                         {posts.map((post) => (
                             <div key={post.id} className="col">
-                                <Card title={post.title} />
+                                <Card image={post.image} title={post.title} content={post.content} tags={post.tags} />
                             </div>
-                        ))}
+                        ))}s
                     </div>
                 </div>
             </section>

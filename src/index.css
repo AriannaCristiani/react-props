@@ -14,6 +14,11 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: unset;
+}
+
 img {
   max-width: 100%;
 }
@@ -33,7 +38,7 @@ img {
 }
 
 .col {
-  width: 250px;
+  width: 300px;
 }
 
 .btn {
