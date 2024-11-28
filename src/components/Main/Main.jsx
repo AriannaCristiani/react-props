@@ -1,4 +1,5 @@
 import Card from "../Card/Card"
+import posts from '../../posts.jsx'
 
 export default function Main() {
     return (
@@ -6,9 +7,11 @@ export default function Main() {
             <section>
                 <div className="container">
                     <div className="row">
-                        <div className="col">
-                            <Card></Card>
-                        </div>
+                        {posts.map((post) => (
+                            <div key={post.id} className="col">
+                                <Card title={post.title} />
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>
