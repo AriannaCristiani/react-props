@@ -1,0 +1,25 @@
+.card {
+    background-color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    color: rgb(48, 48, 48);
+}
+
+.image {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.figure {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.title {
+    margin: 10px;
+}
+
+.body {
+    margin: 10px;
+}
