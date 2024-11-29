@@ -1,17 +1,23 @@
 import Card from "../Card/Card"
 import posts from '../../posts.jsx'
 
+console.log(posts.published)
+
+
 export default function Main() {
+
+    const publishedPosts = posts.filter((post) => post.published === true)
+
     return (
         <main>
             <section>
                 <div className="container">
                     <div className="row">
-                        {posts.map((post) => (
+                        {publishedPosts.map((post) => (
                             <div key={post.id} className="col">
                                 <Card image={post.image} title={post.title} content={post.content} tags={post.tags} />
                             </div>
-                        ))}s
+                        ))}
                     </div>
                 </div>
             </section>

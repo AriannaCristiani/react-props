@@ -12,12 +12,14 @@
 .image {
     width: 100%;
     border-radius: 5px 5px 0px 0px;
+    aspect-ratio: 3/2;
 }
 
 .figure {
     width: 100%;
     object-fit: cover;
     object-position: center;
+    aspect-ratio: 3/2;
 }
 
 .body {

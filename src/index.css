@@ -54,3 +54,7 @@ img {
 .btn:hover {
   background-color: #1b362c;
 }
+
+.error {
+  opacity: 20%;
+}
